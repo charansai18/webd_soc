@@ -1,0 +1,58 @@
+
+.timeline-card {
+  position: relative;
+  width: 100%;
+  height: 200px;
+  color: black;
+}
+
+.timeline-date {
+  position: absolute;
+  left: 5px;
+  top: 76px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 48px;
+  line-height: 57px;
+}
+
+.timeline-divider {
+  position: absolute;
+  left: 40%;
+  width: 0;
+  height: 202px;
+  border-right: 8px solid rgb(36, 121, 248);
+}
+
+.timeline-header {
+  position: absolute;
+  left: 60%;
+  width: 358px;
+  top: 65px;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 35px;
+  line-height: 35px;
+}
+
+.timeline-info {
+  position: absolute;
+  left: 40%;
+  width: 500px;
+  top: 120px;
+  line-height: 19px;
+  font-size: 16px;
+  text-align: justify;
+}
+
+
+.row{
+  display:flex; 
+  flex-direction: row;
+  padding: 1px;
+}
+
+.hr{
+    position: relative;
+    border-top: 2px solid black;
+}

@@ -1,0 +1,13 @@
+.vertical{
+    border-left: 0.3vw solid #00cdb3; 
+height: 12vw; 
+}
+
+@media screen and (min-width: 992px) {
+    .cen {
+      padding-left: 110px;
+    }
+  }
+  body{
+    overflow-x: hidden;
+  }
