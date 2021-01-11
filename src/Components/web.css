@@ -3,3 +3,24 @@
         height:'430px',
     }
 }
+ul.portfolio-tags {
+    padding: 10px 0 10px 0;
+    align-items: center;
+    margin: auto;
+}
+li.portfolio-tag {
+    list-style-type: none;
+    font-size: 10px;
+    font-weight: 700;
+    color: #ea2b5b;
+    display: inline;
+    border: 2px solid #ea2b5b;
+    border-radius: 5px;
+    padding: 8px;
+    align-items: center;
+    margin-right: 10px;
+}
+ul {
+    margin-top: 0;
+    margin-bottom: 10px;
+}

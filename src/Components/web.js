@@ -25,11 +25,15 @@ class Pro extends Component{
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/gymkhana-iitbbs' style={{color:'#fe3265'}}>Gymkhana, IIT BBS</a></CardTitle>
                     <CardText style={{color:'white'}}>It contains information about the gymkhana like what is it, its constitution, the student activity centre, the happenings at the fests, societies of the gymkhana and much more.. !</CardText>
                     <div className='row'>
-                    <Button outline color="danger" className='col-1 mx-1 btn-sm'>Js</Button>
-                    <Button outline color="danger"className='col-3 mx-1 btn-sm' style={{fontSize :'11px'}} >Bootstrap</Button>
-                    <Button outline color="danger" className='col-2 mx-1 btn-sm'>Php</Button>
+                    <ul class="portfolio-tags">
                     
-                    <Button outline color="danger" className='col-3 mx-1 btn-sm'>MySQL</Button>
+                        <li class="portfolio-tag">Js</li>
+                        <li class="portfolio-tag">Bootstrap</li>
+                        <li class="portfolio-tag">PHP</li>
+                        <li class="portfolio-tag">MySQL</li>
+                    
+                    </ul>
+                                        
                    
                     </div>
                   </CardBody>
@@ -42,14 +46,15 @@ class Pro extends Component{
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/cdc-iitbbs' style={{color:'#fe3265'}}>CDC-IITBBS</a> </CardTitle>
                     <CardText style={{color:'white'}}>This website highlights the placement details of our campus and helps the students register to companies for their internships and Placements</CardText>
                     <div className='row'>
-                    <Button outline color="danger" className='col-1 mx-1 btn-sm mb-1'>Js</Button>
-                    <Button outline color="danger" className='col-4 mx-1 btn-sm mb-1'>Php-laravel</Button>
-                    <Button outline color="danger" className='col-2 mx-1 btn-sm mb-1' style={{fontSize :'10px'}}>mySQL</Button>
+                    <ul class="portfolio-tags">
                     
-                    <Button outline color="danger mx-1 btn-sm mb-1">Bootstrap</Button>
-                    
-                   
-                    </div>
+                    <li class="portfolio-tag">Js</li>
+                    <li class="portfolio-tag">Bootstrap</li>
+                    <li class="portfolio-tag">PHP Larvel</li>
+                    <li class="portfolio-tag">MySQL</li>
+                
+                </ul>
+                </div>
                   </CardBody>
                 </Card>
               </div>
@@ -60,9 +65,13 @@ class Pro extends Component{
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/Academic-Council' style={{color:'#fe3265'}} >Acad council</a></CardTitle>
                     <CardText style={{color:'white'}}>This website contains information which is much needed by campus dwellers for academic purposes.</CardText>
                     <div className='row'>
-                    <Button outline color="danger" className='col-2 mx-1 btn-sm'>React</Button>
-                    <Button outline color="danger" className='col-3 mx-1 btn-sm'>Firebase</Button>
-                    <Button outline color="danger" className='col-3 mx-1 btn-sm' >wiki.js</Button>
+                    <ul class="portfolio-tags">
+                    
+                    <li class="portfolio-tag">React</li>
+                    <li class="portfolio-tag">Firebase</li>
+                    <li class="portfolio-tag">Wiki.js</li>
+                
+                </ul>
                    
                     </div>
                   </CardBody>
@@ -75,9 +84,14 @@ class Pro extends Component{
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/ProjectIPL' style={{color:'#fe3265'}}>Intense Prediction League (in collaboration with Ashvamedha) </a></CardTitle>
                     <CardText style={{color:'white'}}>It is a fantasy league organised during the IPL season in association with Ashvamedha, the sports fest of IIT Bhubaneswar.</CardText>
                     <div className='row'>
-                    <Button outline color="danger" className='col-2 mx-1 btn-sm'>Js</Button>
-                    <Button outline color="danger" className='col-3 mx-1 btn-sm' style={{fontSize :'10px'}}>Bootstrap</Button>
-                    <Button outline color="danger" className='col-3 mx-1 btn-sm'>Firebase</Button>
+                    <ul class="portfolio-tags">
+                    
+                    <li class="portfolio-tag">Js</li>
+                    <li class="portfolio-tag">Bootstrap</li>
+                    <li class="portfolio-tag">Firebase</li>
+                
+                </ul>
+                   
                    
                     </div>
                   </CardBody>
@@ -148,13 +162,15 @@ class Web extends Component{
                   <CardBody>
                   <CardTitle tag="h5" ><a href='#' style={{color:'#fe3265'}}>{data.title}</a></CardTitle>
                     <CardText style={{color:'white'}}>{data.text}</CardText>
-                    <div className='row hmm'>
-                    <Button outline color="danger" className=' col-2 col-sm-6 offset-md-1 col-md-5 col-lg-2 ml-1 my-1 btn-sm' style={{fontSize :'11px'}} >React js</Button>
-                    <Button outline color="danger"className=' col-3 col-sm-6 offset-md-1 col-md-5 col-lg-3 ml-1 my-1 btn-sm' style={{fontSize :'11px'}}>Node js</Button>
-                    <Button outline color="danger" className='col-3  col-sm-6 offset-md-1 col-md-5 col-lg-3 ml-1 my-1 btn-sm' style={{fontSize :'11px'}} >Express js</Button>
-                   
-                    <Button outline color="danger" className=' col-3 col-sm-6 offset-md-1 col-md-5 col-lg-3 ml-1 my-1 btn-sm' style={{fontSize :'10px'}} >Mongo DB</Button>
-                   
+                    <div className='row'>
+                    <ul class="portfolio-tags">
+                    
+                    <li class="portfolio-tag">React js</li>
+                    <li class="portfolio-tag">Node js</li>
+                    <li class="portfolio-tag">Express js</li>
+                    <li class="portfolio-tag">Mongo DB</li>
+                
+                   </ul>
                     </div>
                   </CardBody>
                 </Card>
