@@ -30,6 +30,8 @@ class Main extends Component{
       <br />
       <br />
       <Web />
+      <br />
+      <br />
       <Design />
       <Footer />
       

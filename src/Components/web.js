@@ -19,7 +19,7 @@ class Pro extends Component{
         return(
             <div className="row px-5">
               <div className='col-12 col-md-6 col-lg-3 p-3'>
-                <Card color='dark' style={{height:'420px'}} >
+                <Card color='dark' style={{height:'420px', width:'100%'}} >
                   <img width="100%" src='assets/img/gym.png' alt="For example" />
                   <CardBody>
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/gymkhana-iitbbs' style={{color:'#fe3265'}}>Gymkhana, IIT BBS</a></CardTitle>
@@ -36,7 +36,7 @@ class Pro extends Component{
                 </Card>
               </div>
               <div className='col-12 col-md-6 col-lg-3 p-3'>
-                <Card color='dark' style={{height:'420px'}}>
+                <Card color='dark' style={{height:'420px', width:'100%'}}>
                   <img width="100%" src='assets/img/cdc.jpg' alt="For example" />
                   <CardBody>
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/cdc-iitbbs' style={{color:'#fe3265'}}>CDC-IITBBS</a> </CardTitle>
@@ -54,7 +54,7 @@ class Pro extends Component{
                 </Card>
               </div>
               <div className='col-12 col-md-6 col-lg-3 p-3'>
-                <Card color='dark' style={{height:'420px'}}>
+                <Card color='dark' style={{height:'420px', width:'100%'}}>
                   <img width="100%" src='assets/img/acad.png' alt="For example"/>
                   <CardBody>
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/Academic-Council' style={{color:'#fe3265'}} >Acad council</a></CardTitle>
@@ -69,7 +69,7 @@ class Pro extends Component{
                 </Card>
               </div>
               <div className='col-12 col-md-6 col-lg-3 p-3' >
-                <Card color='dark' style={{height:'420px'}} >
+                <Card color='dark' style={{height:'420px', width:'100%'}} >
                   <img width="100%" src='assets/img/ipl.png' alt="For example" />
                   <CardBody>
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/ProjectIPL' style={{color:'#fe3265'}}>Intense Prediction League (in collaboration with Ashvamedha) </a></CardTitle>
@@ -143,7 +143,7 @@ class Web extends Component{
         const list = this.state.datas.map((data) => {
             return(
                 <div className='col-12 col-md-6 col-lg-3 p-3' key={data.id}>
-                <Card color='dark' class='cardht'  style={{height:'430px'}}>
+                <Card color='dark' class='cardht'  style={{height:'430px', width:'100%'}}>
                   <img width="100%" src={data.image} alt="For example" height="210px" />
                   <CardBody>
                   <CardTitle tag="h5" ><a href='#' style={{color:'#fe3265'}}>{data.title}</a></CardTitle>

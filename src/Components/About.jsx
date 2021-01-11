@@ -41,15 +41,16 @@ function About(){
         
         <div className="row content" id="content2">
           <div className="col-md-4 order-1 order-md-2" data-aos="fade-left">
+          <br />
+          <br />
             <img src={image1} class="img-fluid" alt="" />
           </div>
           <div className="col-md-8 pt-5 order-2 order-md-1" data-aos="fade-right">
             <h3>WHAT DO WE DO</h3>
             <br />
             <p>
-            The Web and Design Society of IIT Bhubaneswar has the credit of managing and designing all the websites of the institute and also banners and posters for many events of the institute .
-            Though it majorly acts away from the limelight, it transforms its members into creative professionals by equipping them with the skill and art of creating websites and club designs.
-             Members of the society actively conduct workshops and competitions for beginners as well as advanced web designers.
+            We basically design various websites for the College body:-Be it Gymkhana, Other societies, websites for various competitions as well as designs posters and informative articles that are quite often required before any major competition or event. Design team of our society has the credit of publishing posters for all the events and competitions across the campus. 
+            Design society will helps in improving one’s creativity and master the skill of designing, a must in today's world. In order to do that we will be conducting competitions, workshops, webinars and many more !! Design team has the credit of publishing posters for all the events and competitions across the campus. Design team will help in improving one’s creativity and master the skill of designing, a must in today's world. In order to do that we will be conducting competitions, workshops, webinars and many more!!
             </p>
             
            
