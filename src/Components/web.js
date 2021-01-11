@@ -17,7 +17,7 @@ class Pro extends Component{
     };
     render(){
         return(
-            <div className="row px-5">
+            <div className="row px-5" id='completed'>
               <div className='col-12 col-md-6 col-lg-3 p-3'>
                 <Card color='dark' style={{height:'420px', width:'100%'}} >
                   <img width="100%" src='assets/img/gym.png' alt="For example" />
@@ -157,12 +157,12 @@ class Web extends Component{
         const list = this.state.datas.map((data) => {
             return(
                 <div className='col-12 col-md-6 col-lg-3 p-3' key={data.id}>
-                <Card color='dark' class='cardht'  style={{height:'430px', width:'100%'}}>
-                  <img width="100%" src={data.image} alt="For example" height="210px" />
+                <Card color='dark' class='cardht'  style={{height:'450px', width:'100%'}}>
+                  <img width="100%" src={data.image} alt="For example" height="200px" />
                   <CardBody>
                   <CardTitle tag="h5" ><a href='#' style={{color:'#fe3265'}}>{data.title}</a></CardTitle>
                     <CardText style={{color:'white'}}>{data.text}</CardText>
-                    <div className='row'>
+                    <div className='row' id='Techs'>
                     <ul class="portfolio-tags">
                     
                     <li class="portfolio-tag">React js</li>
