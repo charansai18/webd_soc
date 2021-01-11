@@ -25,11 +25,11 @@ class Pro extends Component{
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/gymkhana-iitbbs' style={{color:'#fe3265'}}>Gymkhana, IIT BBS</a></CardTitle>
                     <CardText style={{color:'white'}}>It contains information about the gymkhana like what is it, its constitution, the student activity centre, the happenings at the fests, societies of the gymkhana and much more.. !</CardText>
                     <div className='row'>
-                    <Button outline color="danger" className='col-1 mx-1 btn-sm'>js</Button>
-                    <Button outline color="danger"className='col-3 mx-1 btn-sm' style={{fontSize :'11px'}} >bootstrap</Button>
-                    <Button outline color="danger" className='col-2 mx-1 btn-sm'>php</Button>
+                    <Button outline color="danger" className='col-1 mx-1 btn-sm'>Js</Button>
+                    <Button outline color="danger"className='col-3 mx-1 btn-sm' style={{fontSize :'11px'}} >Bootstrap</Button>
+                    <Button outline color="danger" className='col-2 mx-1 btn-sm'>Php</Button>
                     
-                    <Button outline color="danger" className='col-3 mx-1 btn-sm'>mysql</Button>
+                    <Button outline color="danger" className='col-3 mx-1 btn-sm'>MySQL</Button>
                    
                     </div>
                   </CardBody>
@@ -42,11 +42,11 @@ class Pro extends Component{
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/cdc-iitbbs' style={{color:'#fe3265'}}>CDC-IITBBS</a> </CardTitle>
                     <CardText style={{color:'white'}}>This website highlights the placement details of our campus and helps the students register to companies for their internships and Placements</CardText>
                     <div className='row'>
-                    <Button outline color="danger" className='col-1 mx-1 btn-sm mb-1'>js</Button>
-                    <Button outline color="danger" className='col-4 mx-1 btn-sm mb-1'>php-laravel</Button>
-                    <Button outline color="danger" className='col-2 mx-1 btn-sm mb-1' style={{fontSize :'10px'}}>mysql</Button>
+                    <Button outline color="danger" className='col-1 mx-1 btn-sm mb-1'>Js</Button>
+                    <Button outline color="danger" className='col-4 mx-1 btn-sm mb-1'>Php-laravel</Button>
+                    <Button outline color="danger" className='col-2 mx-1 btn-sm mb-1' style={{fontSize :'10px'}}>mySQL</Button>
                     
-                    <Button outline color="danger mx-1 btn-sm mb-1">bootstrap</Button>
+                    <Button outline color="danger mx-1 btn-sm mb-1">Bootstrap</Button>
                     
                    
                     </div>
@@ -60,8 +60,8 @@ class Pro extends Component{
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/Academic-Council' style={{color:'#fe3265'}} >Acad council</a></CardTitle>
                     <CardText style={{color:'white'}}>This website contains information which is much needed by campus dwellers for academic purposes.</CardText>
                     <div className='row'>
-                    <Button outline color="danger" className='col-2 mx-1 btn-sm'>react</Button>
-                    <Button outline color="danger" className='col-3 mx-1 btn-sm'>firebase</Button>
+                    <Button outline color="danger" className='col-2 mx-1 btn-sm'>React</Button>
+                    <Button outline color="danger" className='col-3 mx-1 btn-sm'>Firebase</Button>
                     <Button outline color="danger" className='col-3 mx-1 btn-sm' >wiki.js</Button>
                    
                     </div>
@@ -75,9 +75,9 @@ class Pro extends Component{
                   <CardTitle tag="h5"><a href='https://github.com/webd-iitbbs/ProjectIPL' style={{color:'#fe3265'}}>Intense Prediction League (in collaboration with Ashvamedha) </a></CardTitle>
                     <CardText style={{color:'white'}}>It is a fantasy league organised during the IPL season in association with Ashvamedha, the sports fest of IIT Bhubaneswar.</CardText>
                     <div className='row'>
-                    <Button outline color="danger" className='col-2 mx-1 btn-sm'>js</Button>
-                    <Button outline color="danger" className='col-3 mx-1 btn-sm' style={{fontSize :'10px'}}>bootstrap</Button>
-                    <Button outline color="danger" className='col-3 mx-1 btn-sm'>firebase</Button>
+                    <Button outline color="danger" className='col-2 mx-1 btn-sm'>Js</Button>
+                    <Button outline color="danger" className='col-3 mx-1 btn-sm' style={{fontSize :'10px'}}>Bootstrap</Button>
+                    <Button outline color="danger" className='col-3 mx-1 btn-sm'>Firebase</Button>
                    
                     </div>
                   </CardBody>
