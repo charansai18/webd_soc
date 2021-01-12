@@ -17,10 +17,10 @@ class Top extends Component{
                 <br />
                 <br />
                 <br />
-                  <h1 className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'85px'}}>EVENTS</h1>
+                  <h1 className='d-flex justify-content-center' style={{color:'#fe3265'}}>EVENTS</h1>
                 </div>
                 <div className='col-12 col-lg-6'>
-                <img width="100%" src='assets/img/events.jpg' alt="For example" />
+                <center><img width="80%" src='assets/img/events1.png' alt="For example" /></center>
                 </div>
               </div>
         );
@@ -101,7 +101,7 @@ class Bottom extends Component{
                         <div className='col-1 col-lg-1 vertical'></div>
                         <div className='col-6 col-lg-4'>
                             <h1 style={{color:'#fe3265',fontSize:'2.5vw'}}>{event.heading}</h1><br/>
-                            <p style={{color:'#696969',fontSize:'1vw'}}><b style={{color:'white',fontSize:'1.5vw'}}>{event.subheading}</b><br/>{event.matter}</p> 
+                            <p style={{color:'#696969',fontSize:'1.5vw'}}><b style={{color:'white',fontSize:'2vw'}}>{event.subheading}</b><br/>{event.matter}</p> 
                         </div>
                     </div>
                     <div className='offset-lg-1 offset-1 col-10 col-lg-9' style={{backgroundColor:'white'}}>

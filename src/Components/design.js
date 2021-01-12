@@ -193,7 +193,7 @@ class Design extends Component{
       const list = this.state.datas.map((data) => {
         return(
           <div key={data.id} className= "col-12 col-lg-4 col-md-6" id='posterdesign'>
-            <div className="eff" data-aos="zoom-out">
+            <div className="eff">
             <Card color='dark' >
               <CardImg top width="100%" src={data.image} alt="Card image cap" height="260px"/>
               <CardBody>
@@ -208,10 +208,12 @@ class Design extends Component{
       });
         return(
           <div style={{backgroundColor:'#191919'}}>
+           <br />
              <div className='row'>
                 <h1 className="col-12 d-flex justify-content-center " style={{color:'#fe3265'}}>Posters</h1>
                 </div>
           <div className='posters'>
+          <br />
           <div className="row">
           {list}
           </div>

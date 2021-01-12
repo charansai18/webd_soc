@@ -6,9 +6,6 @@ body {
   
   border-radius: 0.6em;
   overflow: hidden;
-  cursor: pointer;
-  
-  transition: all ease 200ms;
 }
 
 

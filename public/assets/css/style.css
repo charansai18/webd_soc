@@ -98,7 +98,7 @@ section {
   font-weight: 400;
   margin-bottom: 20px;
   padding-bottom: 0;
-  color: #5777ba;
+  color: #ea2b5b;
   font-family: "Poppins", sans-serif;
 }
 
@@ -260,7 +260,7 @@ button:hover .button-text {
 .contact .info {
   padding: 20px 40px;
   background: #f1f3f6;
-  color: #47536e;
+  color: #ea2b5b;
   text-align: center;
   border: 1px solid #fff;
 }
@@ -312,7 +312,7 @@ button:hover .button-text {
 .contact .php-email-form .sent-message {
   display: none;
   color: #fff;
-  background: #18d26e;
+  background: #ea2b5b;
   text-align: center;
   padding: 15px;
   font-weight: 600;
@@ -332,7 +332,7 @@ button:hover .button-text {
   width: 24px;
   height: 24px;
   margin: 0 10px -6px 0;
-  border: 3px solid #18d26e;
+  border: 3px solid #ea2b5b;
   border-top-color: #eee;
   -webkit-animation: animate-loading 1s linear infinite;
   animation: animate-loading 1s linear infinite;
@@ -364,16 +364,16 @@ button:hover .button-text {
 
 .contact .php-email-form button[type="submit"] {
   background: #fff;
-  border: 2px solid #18d26e;
+  border: 2px solid #ea2b5b;
   padding: 10px 24px;
-  color: #18d26e;
+  color: #ea2b5b;
   transition: 0.4s;
   border-radius: 50px;
   margin-top: 5px;
 }
 
 .contact .php-email-form button[type="submit"]:hover {
-  background: #18d26e;
+  background: #ea2b5b;
   color: #fff;
 }
 
@@ -514,7 +514,7 @@ button:hover .button-text {
 }
 
 #footer .footer-top .footer-links ul a:hover {
-  color: #0007e9;
+  color: #ea2b5b;
 }
 
 #footer .footer-top .footer-contact {

@@ -188,25 +188,29 @@ class Web extends Component{
             <div style={{backgroundColor:'#191919'}}>
               <div className='row align-items-center' style={{height :'100vh'}} >
                 <div className='col-12 col-lg-6'>
-                  <h1 className='d-flex justify-content-center' style={{color:'#fe3265',fontSize:'55px'}}>SHOW CASE</h1>
+                  <h1 className='d-flex justify-content-center' style={{color:'#fe3265'}}>SHOW CASE</h1>
                 </div>
                 <div className='col-12 col-lg-6'>
-                <img width="100%" src='assets/img/showcase.jpg' alt="For example" />
+                <img width="100%" src='assets/img/showcase1.png' alt="For example" />
                 </div>
               </div>
               
               <div className='row'>
                 <h1 className="col-12 d-flex justify-content-center " style={{color:'#fe3265'}}>Ongoing Projects</h1>
+                
                 </div>
                 <div className='OP'>
+                <br />
                 <div className="row">
                 {list}
                 </div>
                 </div>
                 <div className='row' id='CPtitle'>
+                <br />
                 <h1 className="col-12 mr-auto d-none d-md-block " style={{color:'#fe3265'}}>Completed Projects</h1>
                 <h3 className="col-12 mr-auto d-md-none" style={{color:'#fe3265'}}>Completed Projects</h3>
                 </div>
+                <br />
                 <Pro />
             </div>
         );

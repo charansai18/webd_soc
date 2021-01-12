@@ -39,3 +39,15 @@ ul {
 #CPtitle{
     text-align: center;
 }
+@media only screen and (min-width: 992px) {
+    .OP{
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+  }
+  @media only screen and (min-width: 992px) {
+    .completed{
+      padding-left: 35px;
+      padding-right: 35px;
+    }
+  }

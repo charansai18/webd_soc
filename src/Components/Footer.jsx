@@ -50,6 +50,7 @@ function Footer(){
               >
                 <FontAwesomeIcon icon={faInstagram} size="2x" />
               </a>
+              &nbsp;
               
               <a
                 href="https://www.facebook.com/webnd.iitbbs"
