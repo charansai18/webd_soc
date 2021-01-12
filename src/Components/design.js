@@ -128,8 +128,8 @@ class Design extends Component{
            },
            {
              id: 5,
-             title: 'CreatiWFacts',
-             image: 'assets/img/5.jpg',
+             title: 'National Education Day',
+             image: 'assets/img/p1.jpg',
              subtitle: 'Rohith',
            },
            {
@@ -142,7 +142,7 @@ class Design extends Component{
              id: 7,
              title: 'Environment Day',
              image: 'assets/img/7.jpg',
-             subtitle: 'Charan',
+             subtitle: 'Bhargav',
            },
            {
              id: 8,
@@ -152,8 +152,8 @@ class Design extends Component{
            },
            {
              id: 9,
-             title: 'Ganesh Chaturthi',
-             image: 'assets/img/9.jpg',
+             title: 'New Year',
+             image: 'assets/img/p2.jpg',
              subtitle: 'SonuTez',
            },
            {
@@ -192,10 +192,10 @@ class Design extends Component{
     render(){
       const list = this.state.datas.map((data) => {
         return(
-          <div key={data.id} className= "col-12 col-lg-4 col-md-6 p-5">
+          <div key={data.id} className= "col-12 col-lg-4 col-md-6" id='posterdesign'>
             <div className="eff" data-aos="zoom-out">
             <Card color='dark' >
-              <CardImg top width="100%" src={data.image} alt="Card image cap" height="250px"/>
+              <CardImg top width="100%" src={data.image} alt="Card image cap" height="260px"/>
               <CardBody>
         <CardTitle tag="h5" style={{color:'#fe3265'}}>{data.title}</CardTitle>
         <CardSubtitle tag="h6" className="mb-2 text-muted text-white">Poster Credits :  {data.subtitle}</CardSubtitle>
@@ -211,8 +211,10 @@ class Design extends Component{
              <div className='row'>
                 <h1 className="col-12 d-flex justify-content-center " style={{color:'#fe3265'}}>Posters</h1>
                 </div>
+          <div className='posters'>
           <div className="row">
           {list}
+          </div>
           </div>
            
           </div>
