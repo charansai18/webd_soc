@@ -154,7 +154,7 @@ class Design extends Component{
              id: 9,
              title: 'New Year',
              image: 'assets/img/p2.jpg',
-             subtitle: 'SonuTez',
+             subtitle: 'Rahul Agarwal',
            },
            {
              id: 10,

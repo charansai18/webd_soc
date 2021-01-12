@@ -19,7 +19,7 @@ class Pro extends Component{
         return(
             <div className='completed'>
             <div className="row">
-              <div className='col-12 col-md-6 col-lg-3 p-3'>
+              <div className='col-12 col-md-6 col-lg-4 p-4'>
                 <Card color='dark' style={{height:'420px', width:'100%'}} >
                   <img width="100%" src='assets/img/gym.png' alt="For example" />
                   <CardBody>
@@ -40,7 +40,7 @@ class Pro extends Component{
                   </CardBody>
                 </Card>
               </div>
-              <div className='col-12 col-md-6 col-lg-3 p-3'>
+              <div className='col-12 col-md-6 col-lg-4 p-4'>
                 <Card color='dark' style={{height:'420px', width:'100%'}}>
                   <img width="100%" src='assets/img/cdc.jpg' alt="For example" />
                   <CardBody>
@@ -59,7 +59,7 @@ class Pro extends Component{
                   </CardBody>
                 </Card>
               </div>
-              <div className='col-12 col-md-6 col-lg-3 p-3'>
+              <div className='col-12 col-md-6 col-lg-4 p-4'>
                 <Card color='dark' style={{height:'420px', width:'100%'}}>
                   <img width="100%" src='assets/img/acad.png' alt="For example"/>
                   <CardBody>
@@ -78,7 +78,7 @@ class Pro extends Component{
                   </CardBody>
                 </Card>
               </div>
-              <div className='col-12 col-md-6 col-lg-3 p-3' >
+              <div className='col-12 col-md-6 col-lg-4 p-4' >
                 <Card color='dark' style={{height:'420px', width:'100%'}} >
                   <img width="100%" src='assets/img/ipl.png' alt="For example" />
                   <CardBody>
@@ -161,9 +161,9 @@ class Web extends Component{
           
             return(
               
-                <div className='col-12 col-md-6 col-lg-3' key={data.id} id='ongoing'>
+                <div className='col-12 col-md-6 col-lg-4' key={data.id} id='ongoing'>
                 <Card color='dark' class='cardht'  style={{height:'450px', width:'100%'}}>
-                  <img width="100%" src={data.image} alt="For example" height="200px" />
+                  <img width="100%" src={data.image} alt="For example" height="230px" />
                   <CardBody>
                   <CardTitle tag="h5" ><a href='#' style={{color:'#fe3265'}}>{data.title}</a></CardTitle>
                     <CardText style={{color:'white'}}>{data.text}</CardText>
