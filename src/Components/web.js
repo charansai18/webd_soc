@@ -17,7 +17,8 @@ class Pro extends Component{
     };
     render(){
         return(
-            <div className="row px-5" id='completed'>
+            <div className='completed'>
+            <div className="row">
               <div className='col-12 col-md-6 col-lg-3 p-3'>
                 <Card color='dark' style={{height:'420px', width:'100%'}} >
                   <img width="100%" src='assets/img/gym.png' alt="For example" />
@@ -98,6 +99,7 @@ class Pro extends Component{
                 </Card>
               </div>
             </div>
+            </div>
         );
     }
 }
@@ -154,9 +156,12 @@ class Web extends Component{
       const heightstyle = {
 
       }
+     
         const list = this.state.datas.map((data) => {
+          
             return(
-                <div className='col-12 col-md-6 col-lg-3 p-3' key={data.id}>
+              
+                <div className='col-12 col-md-6 col-lg-3' key={data.id} id='ongoing'>
                 <Card color='dark' class='cardht'  style={{height:'450px', width:'100%'}}>
                   <img width="100%" src={data.image} alt="For example" height="200px" />
                   <CardBody>
@@ -175,8 +180,10 @@ class Web extends Component{
                   </CardBody>
                 </Card>
               </div>
+              
             );
           });
+        
         return(
             <div style={{backgroundColor:'#191919'}}>
               <div className='row align-items-center' style={{height :'100vh'}} >
@@ -187,14 +194,18 @@ class Web extends Component{
                 <img width="100%" src='assets/img/showcase.jpg' alt="For example" />
                 </div>
               </div>
+              
               <div className='row'>
                 <h1 className="col-12 d-flex justify-content-center " style={{color:'#fe3265'}}>Ongoing Projects</h1>
                 </div>
-                <div className="row px-5">
+                <div className='OP'>
+                <div className="row">
                 {list}
                 </div>
-                <div className='row'>
-                <h1 className="col-12 d-flex justify-content-center " style={{color:'#fe3265'}}>Completed Projects</h1>
+                </div>
+                <div className='row' id='CPtitle'>
+                <h1 className="col-12 mr-auto d-none d-md-block " style={{color:'#fe3265'}}>Completed Projects</h1>
+                <h3 className="col-12 mr-auto d-md-none" style={{color:'#fe3265'}}>Completed Projects</h3>
                 </div>
                 <Pro />
             </div>
