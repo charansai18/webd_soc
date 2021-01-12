@@ -20,6 +20,9 @@ class Top extends Component{
                   <h1 className='d-flex justify-content-center' style={{color:'#fe3265'}}>EVENTS</h1>
                 </div>
                 <div className='col-12 col-lg-6'>
+                <br />
+                <br />
+                <br />
                 <center><img width="80%" src='assets/img/events1.png' alt="For example" /></center>
                 </div>
               </div>
